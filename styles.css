@@ -1,0 +1,62 @@
+/* meyer reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* meyer rest */
+
+.container{
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+.left-section{
+    background-color: bisque;
+    background-image: url('./resources/img/halie-west-25xggax4bSA-unsplash.jpg');
+    /* background-repeat: no-repeat; */
+    /* width: 35vw; */
+    background-size: 35vw 100vh;
+}
+
+.logo{
+    padding-top: 200px;
+}
+.div-bg{
+    background: rgb(0, 0, 0, .6);
+    width: 35vw;
+}
+/* logo contents */
+.div-bg > p{
+    color: white;
+    font-size: 3rem;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-bg > p::before{
+    content:"";
+    background-image: url('./resources/img/odin-lined.png');
+    background-size: 70px 100px;
+    display: inline-block;
+    height: 100px;
+    width: 70px;
+}
+
