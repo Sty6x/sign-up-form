@@ -90,7 +90,7 @@ video {
 /* meyer rest */
 
 :root {
-    --padding-p: 0 2.5em 3em;
+    --padding-p: 0 5em 3em;
 }
 
 body {
@@ -176,9 +176,9 @@ body {
 
 form>.fill-up {
     background-color: white;
-    padding: 3em 3.5em 1em 3.5em;
+    padding: 3em 3em 1em 7.3em;
     box-shadow: 1px 2px 5px rgb(0, 0, 0, .2);
-    /* display: flex; */
+    
 }
 
 .fill-up>p {
@@ -202,7 +202,7 @@ label {
 .right-fill-up {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    /* text-align: left; */
 }
 
 input {
@@ -234,7 +234,7 @@ input:focus {
 }
 
 .outside-mid {
-    margin-left: .9em;
+    margin-left: 2em;
     padding: var(--padding-p);
 }
 
