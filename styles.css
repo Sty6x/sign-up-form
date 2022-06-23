@@ -251,3 +251,8 @@ a:visited {
     color: #353535;
     text-decoration: none;
 }
+
+.pass-mismatch{
+    border: red solid 1px;
+    font-size: larger;
+}
