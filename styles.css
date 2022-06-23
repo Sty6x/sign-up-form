@@ -92,7 +92,8 @@ video {
 :root {
     --padding-p: 0 2.5em 3em;
 }
-body{
+
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -146,14 +147,14 @@ body{
     /* display: block; */
     height: 100px;
     width: 70px;
-    }
+}
 
 .right-section {
     background-color: hsl(1, 1%, 96%);
     width: 100vw;
     height: 100vh;
     display: flex;
-     justify-content: center; 
+    justify-content: center;
     flex-direction: column;
     /* align-items: center; */
 }
@@ -168,20 +169,24 @@ body{
     width: 30em;
     text-overflow: ellipsis;
     gap: 1em;
-    
+
 }
 
-.fill-up::after{
-    content: "Let's do this";
-    position: absolute;
-    top: 385px;
-    font-size: 2em;
-}
+
 
 form>.fill-up {
     background-color: white;
-    padding: 6em 3.5em 1em 3.5em;
+    padding: 3em 3.5em 1em 3.5em;
     box-shadow: 1px 2px 5px rgb(0, 0, 0, .2);
+    /* display: flex; */
+}
+
+.fill-up>p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5em;
+}
+
+.fill-container {
     display: flex;
 }
 
@@ -207,7 +212,7 @@ input {
     width: 200px;
     height: 2.5em;
     margin-bottom: 2em;
-    
+
 }
 
 input:focus {
@@ -233,15 +238,16 @@ input:focus {
     padding: var(--padding-p);
 }
 
-.outside-mid>button:hover{
-    cursor: pointer;   
+.outside-mid>button:hover {
+    cursor: pointer;
 }
-.outside-mid>button:focus{
-    background-color:#5e5e5e;
+
+.outside-mid>button:focus {
+    background-color: #5e5e5e;
 }
 
 a,
-a:visited{
-    color:#353535;
+a:visited {
+    color: #353535;
     text-decoration: none;
 }
